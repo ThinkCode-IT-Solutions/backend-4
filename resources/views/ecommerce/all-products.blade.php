@@ -185,50 +185,6 @@
 
             @endforeach
 
-			{{-- <article class="card">
-				<div class="thumb" style="background: linear-gradient(135deg, #d0f1d8, #f3fef5);">Stoneware Mug</div>
-				<h3>Stoneware Mug</h3>
-				<div class="meta">
-					<span class="price">$22</span>
-					<span class="pill">Kitchen</span>
-				</div>
-			</article>
-
-			<article class="card">
-				<div class="thumb" style="background: linear-gradient(135deg, #e9d6ff, #f7f0ff);">Desk Lamp</div>
-				<h3>Brass Desk Lamp</h3>
-				<div class="meta">
-					<span class="price">$120</span>
-					<span class="pill">Lighting</span>
-				</div>
-			</article>
-
-			<article class="card">
-				<div class="thumb" style="background: linear-gradient(135deg, #ffe3d4, #fff6ee);">Notebook Set</div>
-				<h3>Notebook Set</h3>
-				<div class="meta">
-					<span class="price">$18</span>
-					<span class="pill">Stationery</span>
-				</div>
-			</article>
-
-			<article class="card">
-				<div class="thumb" style="background: linear-gradient(135deg, #d9e8ff, #eef4ff);">Wireless Speaker</div>
-				<h3>Wireless Speaker</h3>
-				<div class="meta">
-					<span class="price">$86</span>
-					<span class="pill">Audio</span>
-				</div>
-			</article>
-
-			<article class="card">
-				<div class="thumb" style="background: linear-gradient(135deg, #f6ffd9, #fbffef);">Scented Candle</div>
-				<h3>Cedar Candle</h3>
-				<div class="meta">
-					<span class="price">$28</span>
-					<span class="pill">Home</span>
-				</div>
-			</article> --}}
 		</section>
 	</main>
 </body>
