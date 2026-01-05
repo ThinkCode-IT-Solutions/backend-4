@@ -9,10 +9,10 @@ class ShopController extends Controller
 {
     public function index () {
         // getting data from database
-        $all_products = Product::latest()->get();
+        $sari_products = Product::all();
         // dd($all_products);
         return view("ecommerce.all-products",[
-            "products" => $all_products,
+            "products" => $sari_products,
         ]);
     }
 

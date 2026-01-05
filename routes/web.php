@@ -2,10 +2,12 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ShopController;
+use App\Http\Controllers\TestController;
+use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 Route::get("/", function () {
     return redirect()->route("shop.index");
-});
+})->name("home");
 
 
 // Route::get('/', [HomeController::class,'index'])->name("home");
@@ -17,3 +19,15 @@ Route::get("/services", [HomeController::class,"servicesPage"])->name("services"
 
 Route::get("/login" , [HomeController::class, 'loginPage'])->name("login.page");
 
+
+
+// Route::get("/test",function () {
+//     $products = Product::all();
+//     // return "test";
+//     // return view("something");
+//     // return response()->json($products);
+//     // return redirect()->route("contact");
+// });
+
+
+Route::get("test", [TestController::class,"index"]);

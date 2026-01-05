@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Prize;
 use App\Models\Product;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -16,8 +17,13 @@ class DatabaseSeeder extends Seeder
     */
     public function run(): void
     {
-        $this->call([
-            ProductSeeder::class,
-        ]);
+       Prize::factory(1000)->create();
+
+
+       Prize::factory()->create([
+        'name' => 'Special Prize',
+        'score' => '99',
+        'currency' => 'USD',
+       ]);
     }
 }
